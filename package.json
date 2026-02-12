@@ -1,0 +1,18 @@
+{
+  "name": "prueba-tecnica-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:success": "node tests/login.success.js",
+    "test:invalid-user": "node tests/login.invalid.username.js",
+    "test:invalid-pass": "node tests/login.invalid.password.js",
+    "alltest": "node tests/login.success.js && node tests/login.invalid.username.js && node tests/login.invalid.password.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.40.0"
+  }
+}
