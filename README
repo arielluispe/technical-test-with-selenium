@@ -16,6 +16,7 @@ The project implements **positive and negative login scenarios** and follows **a
   - Username: `tomsmith`
   - Password: `SuperSecretPassword!`
 
+---
 
 ## Project Structure (High Level)
 
@@ -24,6 +25,8 @@ pages/ # Page Objects (UI interactions)
 tests/ # Test cases
 package.json
 README.md
+
+---
 
 ## Test Cases Covered
 
@@ -55,10 +58,12 @@ Before running the project, ensure you have:
 3. npm install
 4. npm install selenium-webdriver
 
+---
 
 ## Run test
 1. npm run alltest
 2. npm run test:success
 3. npm run test:invalid-user
 4. npm run test:invalid-pass
+
 
